@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Act5 {
     public static void main(String[] args) {
-        //Llamada al scanner
+        //Llamada al scannerº
         Scanner sc = new Scanner(System.in);
         // Lee cantdad de insectos
         System.out.println("cantdad de insectos");

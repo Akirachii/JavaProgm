@@ -21,5 +21,6 @@ public class Act3 {
         System.out.println("El porcentaje de chicas: " + porc1 + "%");
         System.out.println("El porcentaje de chicos: " + porc2 + "%");
 
+        System.out.printf("%4$s %2$d %5$s %3$s %1$d %5$s ",porc1,porc2,"El porcentaje de chicas: ","El porcentaje de chicos: ","\n");
     }    
 }
