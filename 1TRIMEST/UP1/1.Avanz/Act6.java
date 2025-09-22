@@ -20,12 +20,12 @@ public class Act6 {
 
 
 
-        /*          En caso de no saber usar el math.ceil se puede hacer de esta otra manera:
-            int tandas2 = (huevos%capacidad);
-            System.out.println(tandas2);
-            int tiemporeal = (huevos/capacidad)+tandas2;
-            System.out.println(tiemporeal);
-         */
+
+
+        //       En caso de no saber usar el math.ceil se puede hacer de esta otra manera:
+            int tandas2 = ((huevos-1)+capacidad)/capacidad;
+            System.out.println("Estas son las tandas: " + tandas2);
+        
     
         System.out.println("Te costara : " + tiempoTotal + " minutos cocer todos los huevos");
         sc.close();
